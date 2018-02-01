@@ -10,7 +10,6 @@ public class Persona {
 	
 	private Persona() {}
 	
-	
 	public static class Builder {
 		private Persona persona;
 		
@@ -39,10 +38,10 @@ public class Persona {
 		public Persona build() {
 			return persona;
 		}
-
 	}
 	
 	public static class BuilderMayor {
+		
 		private Persona persona;
 
 		public BuilderMayor(Persona persona) {
@@ -60,6 +59,7 @@ public class Persona {
 	}
 	
 	public static class BuilderMenor {
+		
 		private Persona persona;
 
 		public BuilderMenor(Persona persona) {

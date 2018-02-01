@@ -4,8 +4,7 @@ public class Main {
 
 	public static void main (String[] args) {
 
-		// este codigo debe compilar
-		
+		// este codigo debe compilar		
 		Persona madre = new Persona.Builder("Maria")
                 .setMunicipio("Selva")
                 .setMayor(37)
@@ -18,7 +17,6 @@ public class Main {
                 .build();
 		
 		// esta codigo NO debe compilar
-		
 		Persona mal = new Persona.Builder("Luisa")
 				    .setMayor(20)
 //				    .setColegio("Colegio de Villa Arriba")
